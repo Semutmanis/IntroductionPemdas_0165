@@ -13,7 +13,7 @@ int main(){
   cout << "masukan tinggi =  ";
   cin >> t;
 
-  luas = a*t;
+  luas = 0,5*a*t;
 
   cout << "hasilnya = " << luas;
 

@@ -2,18 +2,16 @@
 using namespace std;
 
 int main(){
-  cout << "menghitung luas segitiga " << endl;
+  cout << "menghitung luas lingkaran " << endl;
 
-  int a, t;
+  int r;
   float luas;
 
   cout << "masukan alas = ";
-  cin >> a;
+  cin >> r;
 
-  cout << "masukan tinggi =  ";
-  cin >> t;
 
-  luas = 0,5*a*t;
+  luas = 3.14 * r * r;
 
   cout << "hasilnya = " << luas;
 
